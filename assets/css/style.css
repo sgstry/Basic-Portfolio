@@ -1,0 +1,109 @@
+
+h1 {
+	width: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin:5px 0px 0px 150px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	float:left;
+}
+
+h2 {
+	color: #4aaaa5;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+h3 {
+	color: #4aaaa5;
+	margin-left: 15px;
+	padding-top: 5px;
+}
+
+
+
+nav {
+	float: right;
+	list-style-type: none;
+	margin-top: 12.4px;
+	margin-right: 150px;
+	margin-bottom:10px;
+}
+
+li {
+	display: inline;
+	padding-left:10px;
+	padding-right:10px;
+	color:#cccccc;
+}
+
+p {
+	line-height: 2.5;
+	margin-right: 40px;
+	margin-left: 20px;
+}
+
+footer {
+	height:60px;
+	background-color: #666666;
+	text-align: center;
+	line-height: 3.5;
+	vertical-align:;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	border-top-width:5px;
+}
+
+#mainSection {
+	height:650px;
+	background-color: #dddddd;
+	clear:both;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #cccccc;
+}
+
+#aboutDiv {
+	height: 550px;
+	width: 50%;
+	float: left;
+	margin: 30px 0px 50px 125px;
+	padding-bottom:25px;
+	background-color: #ffffff;
+}
+
+#connectDiv {
+	height:165px;
+	width: 235px;
+	float: left;
+	margin: 30px 0px 0px 50px;
+	background-color: #ffffff;
+}
+
+#aboutHR {
+	margin: 0px 20px 0px 20px;
+}
+
+#connectHR {
+	margin: 0px 15px 0px 15px;
+	opacity: .2;
+}
+
+#proPic {
+	height: 180px;
+	width: 200px;
+	margin: 25px 20px 20px 20px;
+	float: left;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin: 10px 0px 10px 15px;
+}
