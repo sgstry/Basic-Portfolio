@@ -51,6 +51,7 @@ p {
 footer {
 	height:60px;
 	background-color: #666666;
+	color: white;
 	text-align: center;
 	line-height: 3.5;
 	vertical-align:;
@@ -59,7 +60,7 @@ footer {
 	border-top-width:5px;
 }
 
-#mainSection {
+#aboutMain {
 	height:650px;
 	background-color: #dddddd;
 	clear:both;
@@ -77,16 +78,64 @@ footer {
 	background-color: #ffffff;
 }
 
+#contactMain {
+	height:650px;
+	background-color: #dddddd;
+	clear:both;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #cccccc;
+}
+
+#wrapperDiv {
+	height: 85%;
+	margin: 0px 20px 0px 20px;
+}
+
+#contactDiv {
+	height: 550px;
+	width: 50%;
+	float: left;
+	margin: 30px 0px 50px 125px;
+	padding-bottom:25px;
+	background-color: #ffffff;
+}
+
+#nameSpan {
+	display:block;
+	margin: 20px 0px 5px 0px;
+}
+
+#nameInput {
+	width: 100%;
+}
+
+#emailSpan {
+	display: block;
+	margin: 20px 0px 5px 0px;
+}
+
+#emailInput {
+	width: 100%;
+}
+
+#messageSpan {
+	display: block;
+	margin: 20px 0px 5px 0px;
+}
+
+#messageInput {
+	width: 100%;
+	height: 45%;
+	margin-bottom: 25px;
+}
+
 #connectDiv {
 	height:165px;
 	width: 235px;
 	float: left;
 	margin: 30px 0px 0px 50px;
 	background-color: #ffffff;
-}
-
-#aboutHR {
-	margin: 0px 20px 0px 20px;
 }
 
 #connectHR {
@@ -99,6 +148,17 @@ footer {
 	width: 200px;
 	margin: 25px 20px 20px 20px;
 	float: left;
+}
+
+#aboutHR {
+	margin: 0px 20px 0px 20px;
+}
+
+#submitButton {
+	height: 40px;
+	width: 90px;
+	background-color: #4aaaa5;
+	color: white;
 }
 
 .logo {
