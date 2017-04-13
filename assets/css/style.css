@@ -200,6 +200,11 @@ h4 {
 	width: 230px;
 }
 
+.image:hover {
+	outline: 5px solid gray;
+	outline-offset: 10px;
+}
+
 .leftImageDiv {
 	position: relative;
     height: 140px;
