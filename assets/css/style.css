@@ -1,27 +1,38 @@
 
+a {
+	color:#cccccc;
+	text-decoration: none;
+}
+
 h1 {
 	width: 300px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding: 20px 20px 15px 15px;
 	margin:5px 0px 0px 150px;
 	background-color: #4aaaa5;
 	color: white;
 	text-align: center;
 	vertical-align: middle;
 	float:left;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: serif;
 }
 
 h2 {
 	color: #4aaaa5;
-	margin-left: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: serif;
+	margin: 0px 0px 10px 20px;
 	padding-top: 20px;
 }
 
 h3 {
 	color: #4aaaa5;
-	margin-left: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: serif;
+	margin: 10px 0px 8px 15px;
 	padding-top: 5px;
 }
 
@@ -30,7 +41,7 @@ h3 {
 nav {
 	float: right;
 	list-style-type: none;
-	margin-top: 12.4px;
+	margin-top: 35px;
 	margin-right: 150px;
 	margin-bottom:10px;
 }
@@ -44,8 +55,8 @@ li {
 
 p {
 	line-height: 2.5;
-	margin-right: 40px;
-	margin-left: 20px;
+	margin: 15px 40px 0px 20px;
+	font-family: Helvetica;
 }
 
 footer {
@@ -60,31 +71,35 @@ footer {
 	border-top-width:5px;
 }
 
-#aboutMain {
-	height:650px;
-	background-color: #dddddd;
+.main {
 	clear:both;
+	background-image: url("../images/ep_naturalwhite.png");
 	border-top-style: solid;
 	border-top-width: 2px;
 	border-top-color: #cccccc;
 }
 
+.content {
+	width: 960px;
+	height: 960px;
+	margin: 0 auto;
+	
+}
+
 #aboutDiv {
-	height: 550px;
-	width: 50%;
+	width: 650px;
+	margin-top: 40px;
 	float: left;
-	margin: 30px 0px 50px 125px;
 	padding-bottom:25px;
 	background-color: #ffffff;
 }
 
-#contactMain {
-	height:650px;
-	background-color: #dddddd;
-	clear:both;
-	border-top-style: solid;
-	border-top-width: 2px;
-	border-top-color: #cccccc;
+#portfolioDiv {
+	width: 650px;
+	float: left;
+	margin-top: 40px;
+	padding-bottom:25px;
+	background-color: #ffffff;
 }
 
 #wrapperDiv {
@@ -93,11 +108,10 @@ footer {
 }
 
 #contactDiv {
-	height: 550px;
-	width: 50%;
+	width: 650px;
 	float: left;
-	margin: 30px 0px 50px 125px;
-	padding-bottom:25px;
+	margin-top: 40px;
+	padding-bottom:15px;
 	background-color: #ffffff;
 }
 
@@ -126,15 +140,15 @@ footer {
 
 #messageInput {
 	width: 100%;
-	height: 45%;
+	height: 200px;
 	margin-bottom: 25px;
 }
 
-#connectDiv {
+.connectDiv {
 	height:165px;
-	width: 235px;
+	width: 230px;
 	float: left;
-	margin: 30px 0px 0px 50px;
+	margin: 40px 0px 0px 50px;
 	background-color: #ffffff;
 }
 
@@ -165,5 +179,39 @@ footer {
 	height: 60px;
 	width: 60px;
 	float: left;
-	margin: 10px 0px 10px 15px;
+	margin: 20px 0px 10px 15px;
+}
+
+h4 {
+	position: absolute;
+	height: 30px;
+	width: 100%;
+	top: 100px;
+	left: 0;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	line-height: 2;
+	font-family: serif;
+}
+
+.image {
+	height: 140px;
+	width: 230px;
+}
+
+.leftImageDiv {
+	position: relative;
+    height: 140px;
+	width: 230px;
+	margin: 10px 30px 0px 50px;
+	float: left;
+}
+
+.rightImageDiv {
+	position: relative;
+    height: 140px;
+	width: 230px;
+	margin: 10px 0px 0px 0px;
+	float: left;
 }
